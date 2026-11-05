@@ -139,6 +139,10 @@ fieldset input { width: 1.2rem; height: 1.2rem; accent-color: var(--forest); }
 .reflection small { color: var(--muted); }
 .summary { background: #fffdf5; }
 .summary.card { border-top: 5px solid #e6b645; }
+.references { display: grid; max-width: 900px; gap: 1rem; margin: 0 auto; padding-left: 2rem; }
+.references li { padding: .8rem 1rem; border-left: 4px solid var(--leaf); border-radius: .25rem .8rem .8rem .25rem; background: #fff; overflow-wrap: anywhere; }
+.references cite { font-style: italic; }
+.references a { display: inline-block; margin-top: .25rem; }
 .summary li { margin: .45rem 0; }
 .big-emoji { font-size: 2.5rem; }
 .cheer { margin-bottom: 0; border-radius: .8rem; padding: 1rem; background: #e2f3df; color: var(--dark); font-weight: 900; }
